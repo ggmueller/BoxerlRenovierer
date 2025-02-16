@@ -16,7 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Zyrrio.Aspire.PinContainers\Zyrrio.Aspire.PinContainers.csproj" IsAspireProjectResource="false"/>
+      <ProjectReference Include="..\..\src\BoxerlRenovierer\BoxerlRenovierer.csproj" IsAspireProjectResource="false" />
     </ItemGroup>
 
     <ItemGroup>

@@ -4,7 +4,7 @@ using Aspire.Hosting.Lifecycle;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
-namespace Zyrrio.Aspire.PinContainers;
+namespace BoxerlRenovierer;
 
 public class PinContainerVersionsLifecycleHook : IDistributedApplicationLifecycleHook
 {

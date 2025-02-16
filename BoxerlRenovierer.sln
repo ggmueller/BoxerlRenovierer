@@ -4,7 +4,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{63
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D32CFDE5-5373-42F5-A538-8B83617A4B89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zyrrio.Aspire.PinContainers", "src\Zyrrio.Aspire.PinContainers\Zyrrio.Aspire.PinContainers.csproj", "{E334035E-7C42-4B06-9C2F-6D33ED0ADE9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxerlRenovierer", "src\BoxerlRenovierer\BoxerlRenovierer.csproj", "{E334035E-7C42-4B06-9C2F-6D33ED0ADE9D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAppHost", "examples\SimpleAppHost\SimpleAppHost.csproj", "{27F910E6-BF31-4BF4-9CCA-BD0FE04D92C9}"
 EndProject

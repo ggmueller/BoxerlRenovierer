@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsAspireSharedProject>true</IsAspireSharedProject>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>1.0.0-pre.1</Version>
+        <Authors>Georg Müller</Authors>
+        <Description>Allows an Aspire configuration to reference container versions from a compose.yml file.
+
+It enables tools like Renovate that work with compose.yml files to pin and  update the container versions.</Description>
+        <PackageTags>aspire container docker podman renovate</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Aspire.Hosting" Version="9.0.0" />
+      <PackageReference Include="YamlDotNet" Version="16.3.0" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+</Project>

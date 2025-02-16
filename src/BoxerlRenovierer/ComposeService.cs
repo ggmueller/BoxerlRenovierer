@@ -1,4 +1,4 @@
-namespace Zyrrio.Aspire.PinContainers;
+namespace BoxerlRenovierer;
 
 internal class ComposeService
 {

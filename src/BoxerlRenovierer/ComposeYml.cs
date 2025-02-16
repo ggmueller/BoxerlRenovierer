@@ -1,6 +1,6 @@
 ﻿using YamlDotNet.RepresentationModel;
 
-namespace Zyrrio.Aspire.PinContainers;
+namespace BoxerlRenovierer;
 
 internal record ComposeYml
 {

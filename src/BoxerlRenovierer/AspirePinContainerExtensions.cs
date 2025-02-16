@@ -1,7 +1,7 @@
 using Aspire.Hosting;
 using Aspire.Hosting.Lifecycle;
 
-namespace Zyrrio.Aspire.PinContainers;
+namespace BoxerlRenovierer;
 
 public static class AspirePinContainerExtensions
 {

@@ -1,4 +1,4 @@
-namespace Zyrrio.Aspire.PinContainers;
+namespace BoxerlRenovierer;
 
 public record ContainerImage{
     public string? Registry { get; init; }

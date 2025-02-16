@@ -21,7 +21,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\examples\SimpleAppHost\SimpleAppHost.csproj" />
-      <ProjectReference Include="..\..\Zyrrio.Aspire.PinContainers\Zyrrio.Aspire.PinContainers.csproj" />
+      <ProjectReference Include="..\..\src\BoxerlRenovierer\BoxerlRenovierer.csproj" />
     </ItemGroup>
 
 </Project>
