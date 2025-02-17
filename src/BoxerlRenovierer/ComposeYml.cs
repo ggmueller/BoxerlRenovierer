@@ -1,6 +1,4 @@
-﻿using YamlDotNet.RepresentationModel;
-
-namespace BoxerlRenovierer;
+﻿namespace BoxerlRenovierer;
 
 internal record ComposeYml
 {

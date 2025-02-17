@@ -16,14 +16,14 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\BoxerlRenovierer\BoxerlRenovierer.csproj" IsAspireProjectResource="false" />
+        <ProjectReference Include="..\..\src\BoxerlRenovierer\BoxerlRenovierer.csproj" IsAspireProjectResource="false"/>
     </ItemGroup>
 
     <ItemGroup>
-      <None Remove="compose.yml" />
-      <AdditionalFiles Include="compose.yml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </AdditionalFiles>
+        <None Remove="compose.yml"/>
+        <AdditionalFiles Include="compose.yml">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </AdditionalFiles>
     </ItemGroup>
 
 </Project>

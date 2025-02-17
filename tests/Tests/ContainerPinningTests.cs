@@ -12,7 +12,7 @@ public class ContainerPinningTests
         var testingBuilder = await DistributedApplicationTestingBuilder.CreateAsync<Program>();
         using var distributedApplication = await testingBuilder.BuildAsync();
         await distributedApplication.StartAsync();
-        
+
         var applicationModel = distributedApplication.Services.GetRequiredService<DistributedApplicationModel>();
         var containerImage = applicationModel.Resources.OfType<ContainerResource>()
             .SelectMany(cr => cr.Annotations.OfType<ContainerImageAnnotation>())

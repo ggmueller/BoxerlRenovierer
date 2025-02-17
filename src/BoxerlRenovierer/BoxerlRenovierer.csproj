@@ -5,24 +5,30 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <IsAspireSharedProject>true</IsAspireSharedProject>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>1.0.0-pre.1</Version>
         <Authors>Georg Müller</Authors>
         <Description>Allows an Aspire configuration to reference container versions from a compose.yml file.
 
-It enables tools like Renovate that work with compose.yml files to pin and  update the container versions.</Description>
+            It enables tools like Renovate that work with compose.yml files to pin and update the container versions.
+        </Description>
         <PackageTags>aspire container docker podman renovate</PackageTags>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReadmeFile>README.md</PackageReadmeFile>
+        <MinVerMinimumMajorMinor>1.0</MinVerMinimumMajorMinor>
+        <MinVerDefaultPreReleaseIdentifiers>pre</MinVerDefaultPreReleaseIdentifiers>
+        <GITHUB_RUN_NUMBER Condition="'$(GITHUB_RUN_NUMBER)' == ''">0</GITHUB_RUN_NUMBER>
+        <FileVersion>$(MinVerMajor).$(MinVerMinor).$(MinVerPatch).$(GITHUB_RUN_NUMBER)</FileVersion>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Aspire.Hosting" Version="9.0.0" />
-      <PackageReference Include="YamlDotNet" Version="16.3.0" />
+        <PackageReference Include="Aspire.Hosting" Version="9.0.0"/>
+        <PackageReference Include="YamlDotNet" Version="16.3.0"/>
+        <PackageReference Include="MinVer" Version="6.0.0">
+            <PrivateAssets>All</PrivateAssets>
+        </PackageReference>
     </ItemGroup>
-    
+
     <ItemGroup>
-        <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+        <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
 
 </Project>

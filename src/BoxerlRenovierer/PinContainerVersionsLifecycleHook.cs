@@ -29,13 +29,10 @@ public class PinContainerVersionsLifecycleHook : IDistributedApplicationLifecycl
 
             containerImage.Image = pinnedContainerImage.Name;
             containerImage.Registry = pinnedContainerImage.Registry;
-            if (pinnedContainerImage.Sha256 == null)
-            {
-                containerImage.Tag = pinnedContainerImage.Tag;
-            }
+            if (pinnedContainerImage.Sha256 == null) containerImage.Tag = pinnedContainerImage.Tag;
             containerImage.SHA256 = pinnedContainerImage.Sha256;
         }
-        
+
         return Task.CompletedTask;
     }
 
