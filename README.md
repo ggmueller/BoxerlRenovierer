@@ -60,3 +60,4 @@ This enables all containers that are referenced by the container.yml to be manag
 # References
 
 Aspire Content on my Blog (in German): https://zyrr.io/tags/aspire
+Nuget-Package: https://www.nuget.org/packages/BoxerlRenovierer
