@@ -59,5 +59,6 @@ This enables all containers that are referenced by the container.yml to be manag
 
 # References
 
+* Announcement of BoxerlRenovierer: [https://zyrr.io](https://zyrr.io/en/blog/2025/2025-02-17-boxerlrenovierer/)
 * Aspire Content on my Blog (in German): https://zyrr.io/tags/aspire
 * Nuget-Package: https://www.nuget.org/packages/BoxerlRenovierer
